@@ -12,11 +12,6 @@ function redirectUser() {
     if (budget) {
         window.location.href = `budget-results.html?budget=${budget}`;
     } else {
-        alert("How much do you wish for a phone?");
+        alert("Please enter a budget amount.");
     }
 }
-
-fetch("https://api-mobilespecs.azharimm.dev/latest")
-.then(response => response.json())
-.then(data => console.log("Phones:", data))
-.catch(error => console.error("Error fetching phone data:", error));
