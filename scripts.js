@@ -12,6 +12,6 @@ function redirectUser() {
     if (budget) {
         window.location.href = `budget-results.html?budget=${budget}`;
     } else {
-        alert("Please enter a budget amount.");
+        alert("How much do you wish for a phone?");
     }
 }
