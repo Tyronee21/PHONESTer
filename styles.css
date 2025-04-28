@@ -80,15 +80,3 @@ body {
 .popup button:hover {
     background: #ffcc00;
 }
-
-.phone-item {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
-
-.phone-item img {
-    width: 150px;
-    height: auto;
-}
